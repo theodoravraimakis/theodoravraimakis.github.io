@@ -15,3 +15,4 @@ jobs:
           InstagramApiKey: ${{ secrets.InstagramApiKey }}
         run: |
           echo "Setting up environment..."
+          echo ${{ secrets.InstagramApiKey }} >> $InstagramApiKey
