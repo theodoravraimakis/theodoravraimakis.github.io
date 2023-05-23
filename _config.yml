@@ -22,8 +22,3 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
-
-steps:
-  - name: Hello world action
-    with: 
-      instagramApiKey: = ${{ secrets.InstagramApiKey }}
