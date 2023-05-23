@@ -14,5 +14,4 @@ jobs:
         env:
           InstagramApiKey: ${{ secrets.InstagramApiKey }}
         run: |
-          const accessToken = "${{ env.InstagramApiKey }}";
           echo "Setting up environment..."
