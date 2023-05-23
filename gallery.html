@@ -6,7 +6,7 @@ title: Gallery
 <script>
   // Instagram access token
 //     const accessToken = "{{ site.instagramApiKey }}";
-  const accessToken = "$instagramApiKey";
+  const accessToken = "$env:instagramApiKey";
   // Fetch images from Instagram API
   fetch(`https://graph.instagram.com/me/media?fields=media_url&access_token=${accessToken}`)
     .then(response => response.json())
