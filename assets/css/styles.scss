@@ -1,3 +1,20 @@
 ---
 ---
 @import "main";
+
+/* CSS to style the image gallery */
+
+#image-gallery img {
+  width: 100px;
+  height: auto;
+  border-radius: 5px;
+}
+
+
+#image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
