@@ -1,0 +1,17 @@
+name: My Workflow
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  my-job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Set up environment
+        env:
+          InstagramApiKey: ${{ secrets.InstagramApiKey }}
+        run: |
+          echo "Setting up environment..."
