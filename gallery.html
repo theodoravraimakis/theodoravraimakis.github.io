@@ -29,4 +29,9 @@ title: Gallery
     });
 </script>
 
+{% if site.instagramApiKey %}
+  <p>Loaded API key</p>
+{% else %}
+  <p>API key is empty</p>
+{% endif %}
 <div id="image-gallery"></div>
