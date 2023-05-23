@@ -1,0 +1,32 @@
+---
+layout: default
+title: Gallery
+---
+
+<script>
+  // Instagram access token
+    const accessToken = "{{ site.instagramApiKey }}";
+  // Fetch images from Instagram API
+  fetch(`https://graph.instagram.com/me/media?fields=media_url&access_token=${accessToken}`)
+    .then(response => response.json())
+    .then(data => {
+      const imageGallery = document.getElementById('image-gallery');
+
+      // Iterate through the images and display them
+      data.data.forEach(image => {
+        const imageUrl = image.media_url;
+
+        // Create an <img> element for each image
+        const imgElement = document.createElement('img');
+        imgElement.src = imageUrl;
+
+        // Append the <img> element to the image gallery container
+        imageGallery.appendChild(imgElement);
+      });
+    })
+    .catch(error => {
+      console.error('Error:', error);
+    });
+</script>
+
+<div id="image-gallery"></div>
