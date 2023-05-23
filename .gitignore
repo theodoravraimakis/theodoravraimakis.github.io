@@ -334,4 +334,5 @@ pyrightconfig.json
 
 _secret.yml
 
+.env
 
