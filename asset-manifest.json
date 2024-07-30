@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5ae2ee43.css",
-    "main.js": "/static/js/main.6cdcd0ee.js",
+    "main.js": "/static/js/main.bcec0ce5.js",
     "static/js/453.c0e04806.chunk.js": "/static/js/453.c0e04806.chunk.js",
     "static/media/flowers2.0.obj": "/static/media/flowers2.0.49ddef58781c99a3c75f.obj",
     "static/media/dick.obj": "/static/media/dick.d6c232f37b78678888a0.obj",
@@ -44,6 +44,7 @@
     "static/media/BlueSponge.obj": "/static/media/BlueSponge.0a6750ee115fd56e1a4a.obj",
     "static/media/branching_4.png": "/static/media/branching_4.346bf1a0b47bcef5bc0b.png",
     "static/media/hilbert2.0_3d_1.png": "/static/media/hilbert2.0_3d_1.245513e67d6ba152227b.png",
+    "static/media/headshot.jpeg": "/static/media/headshot.93d609f8b025607d7671.jpeg",
     "static/media/bush_after.png": "/static/media/bush_after.e374775b45073662d8c8.png",
     "static/media/branching_6.png": "/static/media/branching_6.8cdd7bc8ced500c9dcb8.png",
     "static/media/branching_3.png": "/static/media/branching_3.8d7b4f245dfa787b2e55.png",
@@ -161,11 +162,11 @@
     "static/media/dick.mtl": "/static/media/dick.00f279cfdedbf38ef7a0.mtl",
     "static/media/gerry.mtl": "/static/media/gerry.00f279cfdedbf38ef7a0.mtl",
     "main.5ae2ee43.css.map": "/static/css/main.5ae2ee43.css.map",
-    "main.6cdcd0ee.js.map": "/static/js/main.6cdcd0ee.js.map",
+    "main.bcec0ce5.js.map": "/static/js/main.bcec0ce5.js.map",
     "453.c0e04806.chunk.js.map": "/static/js/453.c0e04806.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5ae2ee43.css",
-    "static/js/main.6cdcd0ee.js"
+    "static/js/main.bcec0ce5.js"
   ]
 }
